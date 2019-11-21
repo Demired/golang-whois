@@ -12,12 +12,12 @@ extra.go: some extra functions to parse whois info
 
 ## Installation
 
-    go get github.com/undiabler/golang-whois
+    go get github.com/Demired/golang-whois
 
 ## Importing
 
     import (
-        "github.com/undiabler/golang-whois"
+        "github.com/Demired/golang-whois"
     )
 
 ## How to use
@@ -38,7 +38,7 @@ extra.go: some extra functions to parse whois info
 
 ## LICENSE
 
-Copyright 2015, undiabler 
+Copyright 2015, Demired 
 
 Apache License, Version 2.0
 
