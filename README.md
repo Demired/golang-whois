@@ -6,7 +6,7 @@ golang-whois is light golang module for checking domain's whois using root serve
 
 whois.go: A golang module for domain whois query.
 
-servers.go: Worldwide [servers list](servers.md) for getting whois info. 
+servers.go: Worldwide [servers list](servers.md) for getting whois info.
 
 extra.go: some extra functions to parse whois info
 
@@ -38,7 +38,7 @@ extra.go: some extra functions to parse whois info
 
 ## LICENSE
 
-Copyright 2015, Demired 
+Copyright 2015, Demired
 
 Apache License, Version 2.0
 
