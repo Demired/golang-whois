@@ -15,7 +15,7 @@ package whois
 var servers = make(map[string]string)
 
 func init() {
-
+	servers["dev"] = "whois.nic.google"
 	servers["author"] = "whois.nic.author"
 	servers["book"] = "whois.nic.book"
 	servers["bot"] = "whois.nic.bot"
@@ -418,7 +418,6 @@ func init() {
 	servers["dentist"] = "whois.rightside.co"
 	servers["desi"] = "whois.ksregistry.net"
 	servers["design"] = "whois.nic.design"
-	servers["dev"] = "domain-registry-whois.l.google.com"
 	servers["diamonds"] = "whois.donuts.co"
 	servers["diet"] = "whois.uniregistry.net"
 	servers["digital"] = "whois.donuts.co"
@@ -1368,7 +1367,6 @@ func init() {
 	servers["adult"] = "whois.afilias-srs.net"
 	servers["aquarelle"] = "whois-aquarelle.nic.fr"
 	servers["bank"] = "whois.nic.bank"
-	servers["dev"] = "domain-registry-whois.l.google.com"
 	servers["docs"] = "domain-registry-whois.l.google.com"
 	servers["doosan"] = "whois.nic.doosan"
 	servers["eurovision"] = "whois.nic.eurovision"
