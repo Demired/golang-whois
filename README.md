@@ -1,4 +1,5 @@
 # golang-whois
+[![GoDoc](https://godoc.org/github.com/Demired/golang-whois?status.svg)](https://godoc.org/github.com/Demired/golang-whois)
 
 golang-whois is light golang module for checking domain's whois using root servers.
 
