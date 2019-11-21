@@ -20,6 +20,7 @@ import (
 	"time"
 )
 
+//GetWhois func
 //Simple connection to whois servers with default timeout 5 sec
 func GetWhois(domain string) (string, error) {
 
@@ -27,6 +28,7 @@ func GetWhois(domain string) (string, error) {
 
 }
 
+//GetWhoisTimeout func
 //Connection to whois servers with various time.Duration
 func GetWhoisTimeout(domain string, timeout time.Duration) (result string, err error) {
 
@@ -39,7 +41,7 @@ func GetWhoisTimeout(domain string, timeout time.Duration) (result string, err e
 
 	parts = strings.Split(domain, ".")
 	if len(parts) < 2 {
-		err = fmt.Errorf("Domain(%s) name is wrong!", domain)
+		err = fmt.Errorf("Domain(%s) name is wrong", domain)
 		return
 	}
 	//last part of domain is zome
@@ -48,7 +50,7 @@ func GetWhoisTimeout(domain string, timeout time.Duration) (result string, err e
 	server, ok := servers[zone]
 
 	if !ok {
-		err = fmt.Errorf("No such server for zone %s. Domain %s.", zone, domain)
+		err = fmt.Errorf("No such server for zone %s. Domain %s", zone, domain)
 		return
 	}
 
