@@ -15,6 +15,7 @@ package whois
 var servers = make(map[string]string)
 
 func init() {
+	servers["com.au"] = "whois.auda.org.au"
 	servers["dev"] = "whois.nic.google"
 	servers["author"] = "whois.nic.author"
 	servers["book"] = "whois.nic.book"
