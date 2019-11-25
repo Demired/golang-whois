@@ -19,6 +19,8 @@ func init() {
  	// whois 内容不提供域名注册时间和到期时间
 	servers["com.au"] = "whois.auda.org.au"
 	servers["au"] = "whois.audns.org.au"
+	
+	servers["black"] = "whois.afilias.net"
 
 	servers["dev"] = "whois.nic.google"
 	servers["author"] = "whois.nic.author"
@@ -290,7 +292,7 @@ func init() {
 	servers["bio"] = "whois.ksregistry.net"
 	servers["biz"] = "whois.biz"
 	servers["bj"] = "whois.nic.bj"
-	servers["black"] = "whois.afilias.net"
+	
 	servers["blackfriday"] = "whois.uniregistry.net"
 	servers["bloomberg"] = "whois.nic.bloomberg"
 	servers["blue"] = "whois.afilias.net"
