@@ -15,7 +15,11 @@ package whois
 var servers = make(map[string]string)
 
 func init() {
+	// https://www.auda.org.au/industry-information/au-domains/whois/
+ 	// whois 内容不提供域名注册时间和到期时间
 	servers["com.au"] = "whois.auda.org.au"
+	servers["au"] = "whois.audns.org.au"
+
 	servers["dev"] = "whois.nic.google"
 	servers["author"] = "whois.nic.author"
 	servers["book"] = "whois.nic.book"
@@ -250,7 +254,6 @@ func init() {
 	servers["associates"] = "whois.donuts.co"
 	servers["at"] = "whois.nic.at"
 	servers["attorney"] = "whois.rightside.co"
-	servers["au"] = "whois.audns.net.au"
 	servers["auction"] = "whois.unitedtld.com"
 	servers["audio"] = "whois.uniregistry.net"
 	servers["auto"] = "whois.uniregistry.net"
